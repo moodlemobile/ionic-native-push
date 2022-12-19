@@ -1,0 +1,20 @@
+{
+  "name": "@moodlehq/ionic-native-push",
+  "version": "5.36.0-moodle.1",
+  "description": "Moodle's fork of Ionic Native Push wrapper",
+  "main": "bundle.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "author": "ionic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moodlemobile/ionic-native-push.git"
+  },
+  "dependencies": {
+    "@types/cordova": "latest",
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0",
+    "@angular/core": "^9.1.12"
+  }
+}
