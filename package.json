@@ -1,6 +1,6 @@
 {
   "name": "@moodlehq/ionic-native-push",
-  "version": "5.36.0-moodle.1",
+  "version": "5.36.0-moodle.2",
   "description": "Moodle's fork of Ionic Native Push wrapper",
   "main": "bundle.js",
   "module": "index.js",
