@@ -312,9 +312,10 @@ export declare class Push extends IonicNativePlugin {
     listChannels(): Promise<Channel[]>;
     /**
      * The getPublicKey method is used to retrieve x.509 public key from the device keychain.
-     * @returns {Promise<string>}
+     * Returns null if the device doesn't support the encryption methods.
+     * @returns {Promise<string | null>}
      */
-    getPublicKey(): Promise<string>;
+    getPublicKey(): Promise<string | null>;
 }
 /**
  * @hidden
